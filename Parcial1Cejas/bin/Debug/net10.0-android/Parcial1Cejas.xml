@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Parcial1Cejas</name>
+    </assembly>
+    <members>
+        <member name="T:Parcial1Cejas.Model.Game">
+            Clase para representar a los datos 
+        </member>
+        <member name="T:Parcial1Cejas.Services.ApiService">
+            Desde este documento el codigo se comunica con la API
+        </member>
+        <member name="T:Parcial1Cejas.ViewModels.AddGameViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.Name">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.AddGameViewModel.name"/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.Genre">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.AddGameViewModel.genre"/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.Developer">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.AddGameViewModel.developer"/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.Publisher">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.AddGameViewModel.publisher"/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.Status">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.AddGameViewModel.status"/>
+        </member>
+        <member name="F:Parcial1Cejas.ViewModels.AddGameViewModel.addGameCommand">
+            <summary>The backing field for <see cref="P:Parcial1Cejas.ViewModels.AddGameViewModel.AddGameCommand"/>.</summary>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.AddGameViewModel.AddGameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Parcial1Cejas.ViewModels.AddGameViewModel.AddGame"/>.</summary>
+        </member>
+        <member name="T:Parcial1Cejas.ViewModels.DetailViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.DetailViewModel.Game">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.DetailViewModel.game"/>
+        </member>
+        <member name="T:Parcial1Cejas.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.MainViewModel.Games">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.MainViewModel.games"/>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.MainViewModel.Status">
+            <inheritdoc cref="F:Parcial1Cejas.ViewModels.MainViewModel.status"/>
+        </member>
+        <member name="F:Parcial1Cejas.ViewModels.MainViewModel.loadGamesCommand">
+            <summary>The backing field for <see cref="P:Parcial1Cejas.ViewModels.MainViewModel.LoadGamesCommand"/>.</summary>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.MainViewModel.LoadGamesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Parcial1Cejas.ViewModels.MainViewModel.LoadGames"/>.</summary>
+        </member>
+        <member name="F:Parcial1Cejas.ViewModels.MainViewModel.goToDetailCommand">
+            <summary>The backing field for <see cref="P:Parcial1Cejas.ViewModels.MainViewModel.GoToDetailCommand"/>.</summary>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.MainViewModel.GoToDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Parcial1Cejas.ViewModels.MainViewModel.GoToDetail(Parcial1Cejas.Model.Game)"/>.</summary>
+        </member>
+        <member name="F:Parcial1Cejas.ViewModels.MainViewModel.goToAddCommand">
+            <summary>The backing field for <see cref="P:Parcial1Cejas.ViewModels.MainViewModel.GoToAddCommand"/>.</summary>
+        </member>
+        <member name="P:Parcial1Cejas.ViewModels.MainViewModel.GoToAddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Parcial1Cejas.ViewModels.MainViewModel.GoToAdd"/>.</summary>
+        </member>
+        <member name="T:Parcial1Cejas.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Genre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Genre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Developer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Developer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Publisher">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Publisher" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Status">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Game">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Game" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Games">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Games" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Genre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Genre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Developer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Developer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Publisher">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Publisher" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Status">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Status" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Game">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Game" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Games">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Games" generated properties.</summary>
+        </member>
+    </members>
+</doc>
